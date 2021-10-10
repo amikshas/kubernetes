@@ -123,6 +123,7 @@ engine=docker
 git clone https://github.com/${github_username}/${github_repository} --single-branch -b ${github_branch}
 source kubernetes/${os}/${engine}/bin/install-leader.sh
 ```
+```
 On the workers:
 ```
 github_username=academiaonline
@@ -139,12 +140,14 @@ engine=cri-o
 engine=docker
 
 git clone https://github.com/${github_username}/${github_repository} --single-branch -b ${github_branch}
-
+```
+```
 # EXPORT THE FOLLOWING VARIABLES FROM THE OUTPUT OF THE LEADER
 export token_discovery=xxx
 export token_token=xxx
 export kube=kube-xxx
 export ip_master1=xxx
-
+```
+```
 source kubernetes/${os}/${engine}/bin/install-worker-singlemaster.sh
 ```
