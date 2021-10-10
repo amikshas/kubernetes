@@ -123,7 +123,6 @@ engine=docker
 git clone https://github.com/${github_username}/${github_repository} --single-branch -b ${github_branch}
 source kubernetes/${os}/${engine}/bin/install-leader.sh
 ```
-```
 On the workers:
 ```
 github_username=academiaonline
