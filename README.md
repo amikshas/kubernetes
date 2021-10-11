@@ -107,7 +107,7 @@ source kubernetes/${os}/${engine}/bin/install-worker.sh
 ## How to install a Kubernetes cluster with 1 single master and any number of workers
 On the leader (master1):
 ```
-github_username=academiaonline
+github_username=amikshas
 github_repository=kubernetes
 github_branch=v2.3
 
@@ -125,7 +125,7 @@ source kubernetes/${os}/${engine}/bin/install-leader.sh
 ```
 On the workers:
 ```
-github_username=academiaonline
+github_username=amikshas
 github_repository=kubernetes
 github_branch=v2.3
 
